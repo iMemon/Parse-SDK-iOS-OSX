@@ -98,5 +98,6 @@
 - (BFTask<PFVoid> *)clearAllFileCacheAsync;
 
 - (NSString *)cachedFilePathForFileState:(PFFileState *)fileState;
+- (NSString *)cachedFilePathForFileUrl:(NSString *)fileUrl;
 
 @end

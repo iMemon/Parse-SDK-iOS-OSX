@@ -13,6 +13,8 @@
 
 #import <Parse/PFConstants.h>
 
+#import "PFFileController.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -146,6 +148,8 @@ NS_ASSUME_NONNULL_BEGIN
  Whether the file has been uploaded for the first time.
  */
 @property (nonatomic, assign, readonly, getter=isDirty) BOOL dirty;
+
++ (PFFileController *)fileController;
 
 ///--------------------------------------
 #pragma mark - Storing Data with Parse

@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name             = 'Parse'
+  s.name             = 'Parse-iMemon'
   s.version          = '1.15.0'
   s.license          =  { :type => 'BSD', :file => 'LICENSE' }
   s.homepage         = 'http://parseplatform.org/'
   s.summary          = 'A library that gives you access to the powerful Parse cloud platform from your iOS/OS X/watchOS/tvOS app.'
   s.authors          = 'Parse'
 
-  s.source           = { :git => "https://github.com/parse-community/Parse-SDK-iOS-OSX.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/iMemon/Parse-SDK-iOS-OSX.git", :tag => s.version.to_s }
 
   s.platform = :ios, :osx, :tvos, :watchos
   s.ios.deployment_target = '7.0'
